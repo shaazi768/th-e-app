@@ -1,0 +1,21 @@
+/* src/pages/Landing.css */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .landing-page h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .landing-page p {
+    font-size: 1.25rem;
+    color: #666;
+  }
+  

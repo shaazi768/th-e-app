@@ -1,0 +1,50 @@
+/* src/pages/Auth.css */
+
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://example.com/background.jpg'); /* Use a background image of your choice */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+  }
+  
+  .auth-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    border-radius: 10px;
+  }
+  
+  .auth-card h2 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .form-label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .auth-card input {
+    border-radius: 5px;
+  }
+  
+  .auth-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-card .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .alert-danger {
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
